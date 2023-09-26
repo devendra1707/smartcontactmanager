@@ -1,0 +1,137 @@
+body {
+	background-color: silver;
+}
+
+.bgprimary {
+	background: skyblue;
+}
+
+.banner {
+	width: 100%;
+	height: 100vh;
+	color: white;
+	background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
+		url("../Img/call.jpg");
+	background-size: cover;
+}
+
+.my-card {
+	padding: 20px;
+	background: #f2f2f2;
+}
+
+.forms {
+	padding: 5px;
+}
+
+.container {
+	padding: 7px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #87CEFA;
+	height: 100vh;
+}
+
+#login .container #login-row #login-column #login-box {
+	margin-top: 100px;
+	max-width: 600px;
+	height: 420px;
+	border: 1px solid yellow;
+	background-color: white;
+}
+
+#login .container #login-row #login-column #login-box #login-form {
+	padding: 20px;
+}
+
+#login .container #login-row #login-column #login-box #login-form #register-link
+	{
+	margin-left: 460px;
+	margin-top: 30px;
+	/*  this is for button remeber me
+ */
+}
+
+@media only screen and (max-width: 600px) {
+	.sidebar {
+		display: none;
+		width: 80% !important;
+		background: white;
+		height: 80vh;
+		position: fixed;
+		padding-top: 20px;
+	}
+	.content {
+		margin-left: 0% !important;
+	}
+}
+
+.sidebar {
+	width: 18%;
+	background: white;
+	height: 100%;
+	position: fixed;
+	padding-top: 45px;
+	z-index: 99999999999999999999;
+}
+
+.sidebar a {
+	display: block;
+	width: 100%;
+	padding: 10px 25px;
+	text-decoration: none;
+	color: gray;
+}
+
+.sidebar a:hover {
+	background: skyblue;
+}
+
+.sidebar .divider {
+	height: .5px;
+	width: 100%;
+	background: skyblue;
+	margin-top: 10px;
+}
+
+.content {
+	margin-left: 20%;
+}
+
+.sidebar .crossBtn {
+	position: absolute;
+	top: 0;
+	right: 35px;
+	font-size: 36px;
+	cursor: pointer;
+}
+
+.my_profile_picture {
+	width: 35px;
+	height: 35px;
+	object-fit: cover;
+	cursor: pointer;
+	border-radius: 50%;
+	border: 1px solid black;
+}
+/* search css */
+.search-container{
+	position:relative;
+	
+}
+.search-result{
+	position: absolute;
+	background:#ffffff;
+	padding:10px;
+	width: 100%;
+	border: 1px solid gray;
+	display:none;
+}
+
+.item-active{
+	background: white;
+	color: black!important;
+}
